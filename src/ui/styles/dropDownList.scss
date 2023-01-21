@@ -1,0 +1,57 @@
+.btn-default {
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+  background-color: #F4F4F4;
+  transition: box-shadow 0.3s ease-in-out, background 0.3s ease-in-out;
+
+  &:hover {
+    box-shadow: 0 5px 10px rgba(51, 51, 51, 0.15);
+  }
+}
+
+.drop-down-list-btn {
+  width: 100%;
+}
+
+.drop-down-list-content {
+  opacity: 0;
+  max-height: 0;
+  margin: 10px 0;
+  overflow: hidden;
+  padding: 0 20px;
+  border-radius: 5px;
+  will-change: max-height;
+  border: 1px solid #C1C1C1;
+  transition: opacity 0.3s ease-out, max-height 0.5s linear, padding 0.5s ease-out;
+
+  &.open {
+    opacity: 1;
+    overflow: auto;
+    padding: 10px 20px;
+    max-height: 300px;
+  }
+}
+
+.list-directions {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  .list-directions__item {
+    margin: 15px 0;
+  }
+
+  .list-directions__btn {
+    width: 100%;
+    padding: 8px;
+    background-color: rgba(244, 244, 244, 1);
+
+    &.active {
+      color: #fff;
+      background-color: #fb6868;
+    }
+  }
+}
