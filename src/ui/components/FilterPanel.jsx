@@ -17,8 +17,8 @@ export const FilterPanel = () => {
 
   const filterCode = {
     cash: ['CASHUSD', 'CASHRUB'],
-    cryptocurrencies: ['BTC', 'ETH', 'USDTTRC', 'TRX'],
-    banks: ['ACRUB', 'SBERRUB', 'TCSBRUB', 'CNTRUB', 'P24UAH', 'OSDBUAH', 'WIREUAH', 'MONOBUAH', 'CARDUAH', 'QWRUB', 'CARDRUB', 'PMUSD']
+    banks: ['ACRUB', 'SBERRUB', 'TCSBRUB'],
+    cryptocurrencies: ['BTC', 'ETH', 'USDTTRC']
   }
 
   return (
